@@ -1,0 +1,200 @@
+.body{
+				
+}
+
+
+.jumbotron{
+	margin: auto;
+	/*background-image: url(img/background.png); */
+	background-color: darkorange;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow-x:hidden;
+	
+}
+
+.follow{
+	/*float: right; */
+	margin-right: 10px;
+	/*background-color: white; */
+	text-align: center;
+}
+
+#profile_pic{
+	/*height:600px;
+	padding-top:170px; */
+	height: auto;
+	padding-top: 100px;
+	
+}
+
+#profile_txt{
+	font-family:'Montserrat',sans-serif;
+	font-size:48px;
+	line-height:1.7;
+	color:black;
+	font-weight:400;
+}
+
+#profile{
+	transform:rotate(270deg);
+}
+
+.navbar.navbar-inverse.navbar-static-top {
+	margin:0px auto;
+	color:#92DD03;
+	border:none;
+	font-family:'Open Sans',sans-serif;
+	font-size:14px;
+	font-weight:600;
+	text-transform:uppercase;
+}
+
+
+#dis_txt{
+	font-family:'Montserrat',sans-serif;
+	font-size:31px;
+	line-height:1.7;
+	color:black;
+	font-weight:400;
+}
+
+/* PANEL */
+.panel-image img.panel-image-preview {
+	width: 100%;
+	border-radius: 4px 4px 0px 0px;
+}
+
+.panel-heading ~ .panel-image img.panel-image-preview {
+	border-radius: 0px;
+}
+
+.panel-image ~ .panel-body, .panel-image.hide-panel-body ~ .panel-body {
+	overflow: hidden;
+}
+.panel-image ~ .panel-footer a {
+	padding: 0px 10px;
+	font-size: 1.3em;
+	color: rgb(100, 100, 100);
+}
+
+.panel-image.hide-panel-body ~ .panel-body {
+	height: 0px;
+	padding: 0px;
+}
+
+#social-ln{
+	color: #3b5998;
+}
+
+#social-ln:hover{
+	color: #3b5998;
+	transform:scale(2.0);
+}
+
+#social-github{
+	color: #3b5998;
+}
+
+#social-github:hover{
+	color: #3b5998;
+	transform:scale(2.0);
+}
+
+.heading {
+	margin: 0 0 20px;
+	padding: 0 0 10px;
+	font-size: 24px;
+	line-height: 24px;
+	border-bottom: 1px solid #929292;
+	color: #929292;
+}
+
+.summary {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.ed-title {
+	margin: 0;
+	font-size: 18px;
+	line-height: 24px;
+	font-style: italic;
+	color: #555;
+}
+
+.title {
+	margin: 0;
+	font-size: 18px;
+	line-height: 24px;
+	color: black;
+}
+
+.grade {
+	float: right;
+	font-size: 10px;
+	color: #333;
+	width: 250px;
+}
+.grade-progress-bar {
+	width: 250px;
+	height: 18px;
+	margin-top: 15px;
+}
+/* message buttons */
+#formbox{
+	text-align: center;
+}
+#cancel{
+	float: right;
+	margin-bottom: 100px;
+}  
+
+/* --- Footer --- */
+.footer {
+	background: darkorange;
+	margin-top:120px;
+	position:relative;
+	margin-right:-15px;
+}
+.footer .container {
+	padding:60px 0 20px;
+}
+.footer ul {
+	margin:0 auto;
+	margin-bottom:30px;
+	margin-top:10px;
+	text-align:center;
+	list-style-type:none;
+	padding-left:0;
+}
+
+
+.footer p {
+	color:black;
+	font-size:13px;
+	line-height:24px;
+	font-weight:300;
+	text-align:center;
+	text-transform:uppercase;
+}
+
+.gototop {
+	display:inline-block;
+	width:60px;
+	height:60px;
+	background:#fff;
+	position:absolute;
+	margin-left:-30px;
+	top:-35px;
+	border-radius:50%;
+}
+.gototop i {
+	color:black;
+	line-height:70px;
+}
+.footer a,.footer a:hover {
+	color:black;
+}
+.credits {
+	text-align: center;
+}

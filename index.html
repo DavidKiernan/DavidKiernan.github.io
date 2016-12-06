@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>CA2</title>
+		<meta charset="utf-8">
+		<meta name="viewpoint" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+		<header>
+			<div class="jumbotron" id="top_page">
+				<div class="container text-center" id="profile_pic">
+					<img id="profile"src="img/Profile.jpg" class="img-circle" alt="" width="182" height="150"\>
+					<h2 class="intro" id="profile_txt">David Kiernan</h2>
+					<h2 class="intro" id="dis_txt">Computing Science</h2>
+				</div>
+			</div>
+
+
+			<!-- Menu -->
+			
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+			  <div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>                        
+				  </button>
+				  
+				</div>
+				<div>
+					<div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#top_page">Home</a></li>
+							<li><a href="#about">About Me</a></li>
+							<!--- Dropdown list for this--->
+							<li><a href="#education">Education</a></li>
+							<li><a href="#projects">Projects</a></li>
+							
+							<!--- End Dropdown -->
+							<li><a href="#skill">Skills</a></li>
+							<li><a href="#hobbies">Hobbies</a></li>
+							<!-- GPA Dropdown -->
+							<!--- Dropdown list for this--->
+							<li class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#">GPA<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li class="menuItem" type="button" data-toggle="modal" data-target="#computing"><a href="#contact">Computing (2013 - Present)</a></li>
+									<li class="menuItem" type="button" data-toggle="modal" data-target="#engineering"><a href="#contact">Mechanical Engineering (2011 - 13)</a></li>
+								</ul>
+							</li>
+							<!--- End Dropdown -->
+							<li class="menuItem" type="button" data-toggle="modal" data-target="#contact"><a href="#contact">Contact Information</a></li>
+							<li class="menuItem" type="button" data-toggle="modal" data-target="#message"><a href="#message">Message</a></li>
+						</ul>
+
+						<!--- Right hnad-side icons-->
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="https://ie.linkedin.com/in/david-kiernan-a916728b" target="_blank"><i id="social-ln" class="fa fa-linkedin fa-2x"></i></a></li>
+							<li><a href="https://github.com/DavidKiernan" target="_blank"><i id="social-github" class="fa fa-github fa-2x"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			  </div>
+			</nav>
+			
+		</header>
+		
+		<!-- ABOUT ME -->
+		<section id="about" class="about_me">
+			<div class="container">
+				<div class="summary">
+					<a href="#about_me" data-toggle="collapse"><h2 class="heading">About</h2></a>
+					
+					
+					<div id="about_me" class="collapse in">
+						<h3 class="hobby-title">
+							<p>
+								
+							</p>
+						</h3>
+
+					</div>
+					
+				</div>
+			</div>
+		</section>
+		<!-- END ABOUT ME -->
+		<!-- EDUCATION -->
+		<section id="education" class="education">
+			<div class="container">
+				<div class="summary">
+					<a href="#ed" data-toggle="collapse"><h2 class="heading">Education</h2></a>
+					<p>
+						 
+					</p>
+					
+					<div id="ed" class="collapse in">
+						<ul class="list-unstyled">
+							<li>
+								<h3 class="ed-title">
+									Bachelor Degree Computing Science: 2.92 GPA<span class="grade" data-toggle="tooltip" title="Pass with Merit - Grade 2">
+										<div class="progress grade-progress-bar">
+											<div class="progress-bar progress-bar-warning"
+												role="progressbar" aria-valuenow="73" aria-valuemin="0"
+												aria-valuemax="100" style="width: 73%">
+												73%
+											</div>
+										</div></span>
+								</h3>
+								<p><li class="menuItem" type="button" data-toggle="modal" data-target="#computing"><a href="#computing">Results Available Here</a></li></p>
+
+							</li>
+								<p>Institute of Technology Tallaght:2013-2016</p>
+							<li>
+								<h4 class="ed-title">
+									Higher Cert Mechanical Engineering: 3.25 GPA<span class="grade" data-toggle="tooltip" title="Distinction">
+										<div class="progress grade-progress-bar">
+											<div class="progress-bar progress-bar-success"
+												role="progressbar" aria-valuenow="81" aria-valuemin="0"
+												aria-valuemax="100" style="width: 81%">
+												81%
+											</div>
+										</div></span>
+								</h4>
+								<p><li class="menuItem" type="button" data-toggle="modal" data-target="#engineering"><a href="#engineering">Results Available Here</a></li></p>
+								<p>Institute of Technology Tallaght:2011-2013</p>
+							</li>
+						</ul>
+					
+					</div>
+					
+				</div>
+			</div>
+		</section>
+		<!-- END EDUCATION -->
+		
+		<!-- PROJECTS-->
+		<section id="projects" class="project">
+			<div class="container">
+				<div class="summary">
+					<a href="#project" data-toggle="collapse"><h2 class="heading">Projects</h2></a>
+					<p>
+						 
+					</p>
+					
+					<div id="project" class="collapse in">
+						<div class="col-md-4">
+						  <div class="thumbnail">
+							  <img src="img/unity.jpg" alt="Moustiers Sainte Marie" style="width:100%">
+							  <div class="caption">
+								<p><b>A 2D & 3D game to be playable on a desktop (GRADE:B-)</b></p>
+								<p><b>2D Game:</b> would allow the user to fight attackers in "Space Invaders" style.
+								  The game had sound and was able to record the score and if the player was killed,
+								  the player had the option to restart game or quit game. 
+								  <b>3D Game:</b> would be a 3D version of the 2D game with the added obstacle of
+								  the environment for the player to deal with.
+								 </p>
+								  <h3><b>Responsibilities</b></h3>
+								  <p>Work was shared amongst the group</p>
+								  <ul style="list-style-type:disc">
+							  		<li>Connect visual studio to the Unity Game Engine</li>
+							  		<li>Coding the 2D (done on own)</li>
+									<li>Creation of the Word Document</li>
+								</ul>
+							  </div>
+						  </div>
+						</div> <!-- END 3rd YR -->
+						
+						<div class="col-md-4">
+						  <div class="thumbnail">
+							  <img src="img/Hospital.jpg" alt="Moustiers Sainte Marie" style="width:100%">
+							  <div class="caption">
+								<p><b>Hospital System for Appointment with Billing stores to Oracle Database (GRADE: B-)</b></p>
+								 <p>
+									The aim was that the patient could either be referred to the hospital by their GP
+									or make an appointment on the own.
+									The appointment for a machine is based on the hospital doctors timetable and also the machine's
+									timetable.
+									The program was also able record medicine stock levels.
+									Also able to record the totla cost of the patient's visit based on if they had
+									
+									<li>Medical Card</li>
+									<li>Type of Health Insurance</li>
+									
+									These timetables, patient information and stock levels were stored in a local oracle database.
+								  	Once the project was completed write a document listing the steps involved and a manual to use the system
+								  	in a word document
+								 </p>
+							  	<h3><b>Responsibilities</b></h3>
+								  <p>Work was shared amongst the group</p>
+								  <ul style="list-style-type:disc">
+							  		<li>Connect intellij to Oracle done with JDBC</li>
+							  		<li>Coding the project</li>
+									<li>Creation of the Word Document</li>
+								</ul>
+							  </div>
+						  </div>
+						</div> <!-- END 2nd YR -->
+						
+						<div class="col-md-4">
+						  <div class="thumbnail">
+							  <img src="img/BikeLock.jpg" alt="Moustiers Sainte Marie" style="width:100%">
+							  <div class="caption">
+								<p><b>Foldable Permanent Bike-Lock (GRADE: A)</b></p>
+								<p> 
+									The aim was to solve a problem in which the user of the lock wished
+									to mount and lock their bike in a 7 to 10 metre allayway which was 
+									also occupied by two industrial bins.
+									Once the project was complete present the solution.
+								</p>
+								  <h3><b>Responsibilities</b></h3>
+								  <p>Work was shared amongst the group</p>
+								  <ul style="list-style-type:disc">
+							  		<li>Finding Out Cost of Materials</li>
+							  		<li>Designing using AutoCad & Solidworks</li>
+									<li>Building the Device</li>
+									<li>Collecting Muintes of Weekly Meeting</li>
+									<li>Creation of the Powerpoint</li>
+								</ul>
+							  </div>
+						  </div>
+						</div> <!-- END ENGINEERING -->
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- SKILLS -->
+		
+		<section id="skill" class="skills">
+			<div class="container">
+				<div class="summary">
+					<a href="#skills" data-toggle="collapse"><h2 class="heading">Skills</h2></a>
+					<p>
+						 
+					</p>
+					
+					<div id="skills" class="collapse in">
+						<h3 class="title">
+							<div class="col-sm-6">
+								<h3>Computing Languages</h3>
+								<ul style="list-style-type:disc">
+							  		<li>Java</li>
+							  		<li>C++</li>
+									<li>C#</li>
+							  		<li>Python</li>
+									<li>HTML</li>
+									<li>Bash Scripting</li>
+								</ul>
+							</div>
+							
+							<div class="col-sm-6">
+								<h3>Other</h3>
+								<ul style="list-style-type:disc">
+							  		<li>Linux</li>
+							  		<li>Oracle Database</li>
+									<li>Azure</li>
+							  		<li>Router Configuration</li>
+									<li>Switch Configuration</li>
+									<li>Microsoft Office</li>
+									<li>AutoCad</li>
+									<li>solidworks</li>
+								</ul>
+							</div>
+						</h3>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END SKILLS -->
+		
+		<!-- HOBBIES -->
+		<section id="hobbies" class="hobbies">
+			<div class="container">
+				<div class="summary">
+					<a href="#hobby" data-toggle="collapse"><h2 class="heading">Hobbies</h2></a>
+					<p>
+						 
+					</p>
+					
+					<div id="hobby" class="collapse in">
+						<h3 class="title">
+							<ul style="list-style-type:disc">
+							  <li>Soccer</li>
+							  <li>Sports in General</li>
+
+							</ul>
+						</h3>
+
+					</div>
+					
+				</div>
+			</div>
+		</section>
+		<!-- END HOBBIES -->
+		
+
+		<!-- MODEL BOX -->
+
+		<!-- GPA -->
+
+		<!-- Computing -->
+		<div class="modal fade" id="computing" role="dialog">
+			<div class="modal-dialog">
+				<!-- Modal Body-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button> 
+						<h4 class="modal-title">Honors Degree Computing Science [Level 8] (2013 - Present)</h4>
+
+
+						<!-- INFORMATION -->
+						
+						<div class="panel-group" id="accordion">
+							<!-- YEAR 3 -->
+							<div class="panel panel-default">
+							  <div class="panel-heading">
+								<h4 class="panel-title">
+								  <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Year 3 (GPA: 2.92)</a>
+								</h4>
+							  </div>
+							  <div id="collapse1" class="panel-collapse collapse">
+								<div class="panel-body">
+									<div class="table-responsive">          
+										<table class="table">
+											<thead>
+											  <tr>
+												<th>Subject</th>
+												<th>Grade</th>
+											  </tr>
+											</thead>
+											<tbody>
+												<tr>
+											<td>Network Management</td>
+											<td>B+</td>
+										  </tr>
+												<tr>
+											<td>Project</td>
+											<td>B-</td>
+										  </tr>
+												<tr>
+											<td>Object Orientd Analysis and Design 2</td>
+											<td>C</td>
+										  </tr>
+												<tr>
+											<td>Algorithms and Data Structures 2</td>
+											<td>B</td>
+										  </tr>
+												<tr>
+											<td>Logic and Problem Solving</td>
+											<td>B</td>
+										  </tr>
+												<tr>
+											<td>Advanced Databases</td>
+											<td>B</td>
+										  </tr>
+												<tr>
+											<td>Cloud services and distributed comp</td>
+											<td>B-</td>
+										  </tr>
+												<tr>
+											<td> Innovation & Entrepreneurshp</td>
+											<td>B</td>
+										  </tr>
+												<tr>
+											<td>Operating Systems</td>
+											<td>B+</td>
+										  </tr>
+												<tr>
+											<td>Web Design & Development 2</td>
+											<td>C</td>
+										  </tr>
+												<tr>
+											<td>Algorithms and Data Structures 1</td>
+											<td>B+</td>
+										  </tr>
+
+											</tbody>
+										</table>
+									</div>
+								</div>
+							  </div>
+							</div>
+							 <!-- YEAR 2 -->
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+									  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Year 2 (GPA: 3.40)</a>
+									</h4>
+								</div>
+								  <div id="collapse2" class="panel-collapse collapse">
+									<div class="panel-body">
+										<div class="table-responsive">          
+											<table class="table">
+												<thead>
+												  <tr>
+													<th>Subject</th>
+													<th>Grade</th>
+												  </tr>
+												</thead>
+												<tbody>
+												  <tr>
+													<td>Information Security</td>
+													<td>B-</td>
+												  </tr>
+												  <tr>
+													<td>Object Oriented Analy & Design</td>
+													<td>C+</td>
+												  </tr>
+												  <tr>
+													<td>Management Science</td>
+													<td>A</td>
+												  </tr>
+												  <tr>
+													<td>Networking 2</td>
+													<td>A</td>
+												  </tr>
+												  <tr>
+													<td>Project</td>
+													<td>B-</td>
+												  </tr>
+												  <tr>
+													<td>Software Development 4</td>
+													<td>B+</td>
+												  </tr>
+												  <tr>
+													<td>Web Design and Development</td>
+													<td>B+</td>
+												  </tr>
+												  <tr>
+													<td>Discrete Mathematics 2</td>
+													<td>A</td>
+												  </tr>
+												  <tr>
+													<td>Database Design & Programming</td>
+													<td>B</td>
+												  </tr>
+												  <tr>
+													<td>Networking 1</td>
+													<td>A</td>
+												  </tr>
+												  <tr>
+													<td>Software Quality Assurance & Test</td>
+													<td>A</td>
+												  </tr>
+												  <tr>
+													<td>Software Development 3</td>
+													<td>B-</td>
+												  </tr>
+												</tbody>
+											 </table>
+										</div>
+									  </div>
+									</div>
+								</div>
+
+							 <!-- YEAR 1 -->
+							 <div class="panel panel-default">
+							 <div class="panel-heading">
+								<h4 class="panel-title">
+								  <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Year 1 (GPA: 3.38)</a>
+								</h4>
+							 </div>
+							 <div id="collapse3" class="panel-collapse collapse">
+								<div class="panel-body">
+									<div class="table-responsive">          
+										<table class="table">
+												<thead>
+												 <tr>
+													<th>Subject</th>
+													<th>Grade</th>
+												 </tr>
+												</thead>
+												<tbody>
+												 <tr>
+													<td>Operating System Fundamentals</td>
+													<td>C+</td>
+												 </tr>
+												 <tr>
+													<td>Database Fundamentals</td>
+													<td>B</td>
+												  </tr>
+												 <tr>
+													<td>Statistics</td>
+													<td>A</td>
+												  </tr>
+												 <tr>
+													<td>Social Media Communications</td>
+													<td>B+</td>
+												  </tr>
+												 <tr>
+													<td>Object Oriented System Analysis</td>
+													<td>B</td>
+												  </tr>
+												 <tr>
+													<td>Software Development 2</td>
+													<td>B+</td>
+												  </tr>
+												 <tr>
+													<td>Learning to Learn at 3rd Lvl</td>
+													<td>B</td>
+												  </tr>
+												 <tr>
+													<td>Discrete Mathematics 1</td>
+													<td>A</td>
+												  </tr>
+												 <tr>
+													<td>Business & Information System</td>
+													<td>B</td>
+												  </tr>
+												 <tr>
+													<td>Fundamentals of Interface & Web</td>
+													<td>B+</td>
+												  </tr>
+												 <tr>
+													<td>Computer Architecture</td>
+													<td>A</td>
+												  </tr>
+												 <tr>
+													<td>Software Development 1</td>
+													<td>B+</td>
+												  </tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>		
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Mech Engineering -->
+		<div class="modal fade" id="engineering" role="dialog">
+			<div class="modal-dialog">
+				<!-- Modal Body-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button> 
+						<h4 class="modal-title">Higher Cert Mechanical Engineering [Level 6] (2011 - 2013)</h4>
+						<h5> GPA:3.25 (Pass with Distinction) </h5>
+
+						<!-- INFORMATION -->
+						 <div class="panel-group" id="accordion">
+							<div class="panel panel-default">
+							  <div class="panel-heading">
+								<h4 class="panel-title">
+								  <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Year 2 (GPA: 3.25)</a>
+								</h4>
+							  </div>
+								<!-- YEAR 2 -->
+							  <div id="collapse4" class="panel-collapse collapse">
+								<div class="panel-body">
+									<div class="table-responsive">          
+										<table class="table">
+											<thead>
+											  <tr>
+												<th>Subject</th>
+												<th>Grade</th>
+											  </tr>
+											</thead>
+											<tbody>
+											  <tr>
+												<td>Operations & Quality</td>
+												<td>B+</td>
+											  </tr>
+											  <tr>
+												<td>3D Design</td>
+												<td>B</td>
+											  </tr>
+											  <tr>
+												<td>Robotic Systems</td>
+												<td>B+</td>
+											  </tr>
+											  <tr>
+												<td>Machine Dynamics</td>
+												<td>B+</td>
+											  </tr>
+												<tr>
+												<td>Thermodynamics</td>
+												<td>C+</td>
+											  </tr>
+											  <tr>
+												<td>Technical Mathematics 4</td>
+												<td>B+</td>
+											  </tr>
+											  <tr>
+												<td>Electrical Principles</td>
+												<td>A</td>
+											  </tr>
+											  <tr>
+												<td>Group Project</td>
+												<td>A</td>
+											  </tr>
+												<tr>
+												<td>Processes & Materials 2</td>
+												<td>B</td>
+											  </tr>
+											  <tr>
+												<td>Mechanical Structures</td>
+												<td>B+</td>
+											  </tr>
+											  <tr>
+												<td>Fluid Mechanics 1</td>
+												<td>C</td>
+											  </tr>
+											  <tr>
+												<td>Technical Mathematics 1</td>
+												<td>B</td>
+											  </tr>
+											</tbody>
+										  </table>
+									</div>
+								</div>
+							  </div>
+							</div>
+
+							<div class="panel panel-default">
+							  <div class="panel-heading">
+								<h4 class="panel-title">
+								  <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Year 1 (GPA: 2.96)</a>
+								</h4>
+							  </div>
+							  <div id="collapse5" class="panel-collapse collapse">
+								<div class="panel-body">
+									<div class="table-responsive">          
+										<table class="table">
+											<thead>
+											  <tr>
+												<th>Subject</th>
+												<th>Grade</th>
+											  </tr>
+											</thead>
+											<tbody>
+											  <tr>
+												<td>Workshop Practice</td>
+												<td>B+</td>
+											  </tr>
+											  <tr>
+												<td>Processes & Materials 1</td>
+												<td>B-</td>
+											  </tr>
+											  <tr>
+												<td>Fluid Power Control</td>
+												<td>B</td>
+											  </tr>
+											  <tr>
+												<td>Mechanical Science 2</td>
+												<td>C+</td>
+											  </tr>
+												<tr>
+												<td>Engineering Graphics 2</td>
+												<td>B+</td>
+											  </tr>
+											  <tr>
+												<td>Technical Mathematics 2</td>
+												<td>C+</td>
+											  </tr>
+											  <tr>
+												<td>Engineering Skills</td>
+												<td>B+</td>
+											  </tr>
+											  <tr>
+												<td>Electrical Practice</td>
+												<td>A</td>
+											  </tr>
+												<tr>
+												<td>Fluid Power Systems</td>
+												<td>B-</td>
+											  </tr>
+											  <tr>
+												<td>Engineering Graphics 1</td>
+												<td>C</td>
+											  </tr>
+											  <tr>
+												<td>Mechanical Science 1</td>
+												<td>C</td>
+											  </tr>
+											  <tr>
+												<td>Technical Mathematics 1</td>
+												<td>C+</td>
+											  </tr>
+											</tbody>
+										  </table>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						  </div>
+
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Contact Information -->
+		<div class="modal fade" id="contact" role="dialog">
+			<div class="modal-dialog">
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button> 
+						<h4 class="modal-title">Contact Information</h4>
+					</div>
+
+					<div class="modal-body">
+						<ul class="list-unstyled contact-list">
+							<li class="email"><i class="fa fa-envelope"></i> Email: Davidkiernan@hotmail.co.uk</li>
+							<li class="phone"><i class="fa fa-phone"></i> Available between 9am - 11pm on: 0873923374</li>
+							<li class="linkedin"><i class="fa fa-linkedin"></i> More Detailed Information: <a href=https://ie.linkedin.com/in/david-kiernan-a916728b target="_blank">https://ie.linkedin.com/in/david-kiernan-a916728b</a></li>
+							<li class="github"><i class="fa fa-github"></i> Code Work Available: <a href="https://github.com/DavidKiernan" target="_blank">https://github.com/DavidKiernan</a></li>
+						</ul>
+					</div>
+
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div> 
+
+		<!-- Quick Message -->
+		<div class="modal fade" id="message" role="dialog">
+			<div class="div class="modal-dialog"">
+				<!-- Modal Content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button> 
+						<h4 class="modal-title">Message</h4>
+					</div>
+					<div class="modal-body">
+						<form action="" method="post" role="form" class="contactForm">
+							<div class="form-group">
+								<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+								<div class="validation"></div>
+							</div>
+
+							<div class="form-group">
+								<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+								<div class="validation"></div>
+							</div>
+
+							<div class="form-group">
+								<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+								<div class="validation"></div>
+							</div>
+
+							<div class="form-group">
+								<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+								<div class="validation"></div>
+							</div>
+							<div id="formbox">
+								<button type="submit" class="contact submit" id="send">Send Message</button>
+								<button type="button"  data-dismiss="modal" id="cancel">Cancel</button>
+							</div>							
+						</form> <!-- End Form-->
+					</div>
+		
+				</div>
+			</div>
+		</div> <!-- End Quick Message -->
+
+		<!-- Contact Message Form-->
+		<!--
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<div id="sendmessage">Won't send a Message</div>
+					<div id="errormessage"></div>
+					<form action="" method="post" role="form" class="contactForm">
+							<div class="form-group">
+								<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+								<div class="validation"></div>
+							</div>
+
+							<div class="form-group">
+								<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+								<div class="validation"></div>
+							</div>
+
+							<div class="form-group">
+								<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+								<div class="validation"></div>
+							</div>
+
+							<div class="form-group">
+								<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+								<div class="validation"></div>
+							</div>
+
+							<div class="text-center"><button type="submit" class="contact submit">Send Message</button></div>
+						</form>
+					</div>
+				</div>
+			</div>  -->
+
+		<!--FOOTER-->
+		<section class="footer" id="footer">
+			<p class="text-center">
+				<a href="#top_page" class="gototop"><i class="fa fa-angle-double-up fa-2x"></i></a>
+			</p>
+			<div class="container">
+
+				<p>&copy; David Kiernan. All Rights Reserved.</p>
+				<div class="credits">
+
+					<a href="https://bootstrapmade.com/free-business-bootstrap-themes-website-templates/">Business Bootstrap Themes</a> by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+				</div>
+			</div>
+		</section>
+		
+		<!-- SCRIPTS AT BOTTOM -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/contact.js"></script>
+		<script src="js/panel.js"></script>
+	</body>
+</html>
