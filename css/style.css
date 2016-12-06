@@ -40,6 +40,10 @@
 	transform:rotate(270deg);
 }
 
+#logo:hover{
+transform:scale(1.25);
+}
+
 .navbar.navbar-inverse.navbar-static-top {
 	margin:0px auto;
 	color:#92DD03;
@@ -129,21 +133,19 @@
 	color: black;
 }
 
-.grade {
-	float: right;
-	font-size: 10px;
-	color: #333;
-	width: 250px;
-}
-.grade-progress-bar {
-	width: 250px;
-	height: 18px;
-	margin-top: 15px;
-}
 /* message buttons */
 #formbox{
+	
 	text-align: center;
 }
+
+
+ #send{
+	
+	color: black;
+	background-color: darkorange;
+}
+
 #cancel{
 	float: right;
 	margin-bottom: 100px;

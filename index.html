@@ -8,6 +8,8 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="font-awesome/css/font-awesome.css">
 		<link rel="stylesheet" href="css/style.css">
+		
+
 	</head>
 
 	<body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -75,13 +77,12 @@
 		<section id="about" class="about_me">
 			<div class="container">
 				<div class="summary">
-					<a href="#about_me" data-toggle="collapse"><h2 class="heading">About</h2></a>
+					<h2 class="heading">About</h2>
 					
-					
-					<div id="about_me" class="collapse in">
-						<h3 class="hobby-title">
+					<div id="about_me" >
+						<h3 class="title">
 							<p>
-								
+								4th Year student and this is my Interactive Media Design CA
 							</p>
 						</h3>
 
@@ -95,41 +96,35 @@
 		<section id="education" class="education">
 			<div class="container">
 				<div class="summary">
-					<a href="#ed" data-toggle="collapse"><h2 class="heading">Education</h2></a>
+					<h2 class="heading">Education</h2>
 					<p>
 						 
 					</p>
 					
-					<div id="ed" class="collapse in">
+					<div id="ed">
 						<ul class="list-unstyled">
 							<li>
-								<h3 class="ed-title">
-									Bachelor Degree Computing Science: 2.92 GPA<span class="grade" data-toggle="tooltip" title="Pass with Merit - Grade 2">
-										<div class="progress grade-progress-bar">
-											<div class="progress-bar progress-bar-warning"
-												role="progressbar" aria-valuenow="73" aria-valuemin="0"
-												aria-valuemax="100" style="width: 73%">
-												73%
-											</div>
-										</div></span>
-								</h3>
-								<p><li class="menuItem" type="button" data-toggle="modal" data-target="#computing"><a href="#computing">Results Available Here</a></li></p>
-
+								<span class="grade" data-toggle="tooltip" title="Pass with Merit - Grade 2">
+									<div class="grade">
+										<h3 class="ed-title">Bachelor Degree Computing Science: 2.92 GPA</h3>
+									</div>
+								</span>
 							</li>
-								<p>Institute of Technology Tallaght:2013-2016</p>
+								<p><b>Institute of Technology Tallaght:2013-2016</b></p>
+								<a href="http://www.it-tallaght.ie/" target="_blank"><img src="img/IT-Tallaght-Logo.jpg" id ="logo" class="img-thumbnail" width="70" height="75"></a>
+							
+								<p><li class="menuItem" type="button" data-toggle="modal" data-target="#computing"><a href="#computing">Results Available Here</a></li></p>
 							<li>
-								<h4 class="ed-title">
-									Higher Cert Mechanical Engineering: 3.25 GPA<span class="grade" data-toggle="tooltip" title="Distinction">
-										<div class="progress grade-progress-bar">
-											<div class="progress-bar progress-bar-success"
-												role="progressbar" aria-valuenow="81" aria-valuemin="0"
-												aria-valuemax="100" style="width: 81%">
-												81%
-											</div>
-										</div></span>
-								</h4>
+								<span class="grade" data-toggle="tooltip" title="Distinction">
+									<div class="grade">
+									<h3 class="ed-title">Higher Cert Mechanical Engineering: 3.25 GPA</h3>
+									</div>
+								</span>
+								
+								<p><b>Institute of Technology Tallaght:2011-2013</b></p>
+								<a href="http://www.it-tallaght.ie/" target="_blank"><img src="img/IT-Tallaght-Logo.jpg" id ="logo" class="img-thumbnail" width="70" height="75"></a>
 								<p><li class="menuItem" type="button" data-toggle="modal" data-target="#engineering"><a href="#engineering">Results Available Here</a></li></p>
-								<p>Institute of Technology Tallaght:2011-2013</p>
+
 							</li>
 						</ul>
 					
@@ -144,12 +139,12 @@
 		<section id="projects" class="project">
 			<div class="container">
 				<div class="summary">
-					<a href="#project" data-toggle="collapse"><h2 class="heading">Projects</h2></a>
+					<h2 class="heading">Projects</h2>
 					<p>
 						 
 					</p>
 					
-					<div id="project" class="collapse in">
+					<div id="project">
 						<div class="col-md-4">
 						  <div class="thumbnail">
 							  <img src="img/unity.jpg" alt="Moustiers Sainte Marie" style="width:100%">
@@ -157,8 +152,8 @@
 								<p><b>A 2D & 3D game to be playable on a desktop (GRADE:B-)</b></p>
 								<p><b>2D Game:</b> would allow the user to fight attackers in "Space Invaders" style.
 								  The game had sound and was able to record the score and if the player was killed,
-								  the player had the option to restart game or quit game. 
-								  <b>3D Game:</b> would be a 3D version of the 2D game with the added obstacle of
+									the player had the option to restart game or quit game. </p>
+								  <p><b>3D Game:</b> would be a 3D version of the 2D game with the added obstacle of
 								  the environment for the player to deal with.
 								 </p>
 								  <h3><b>Responsibilities</b></h3>
@@ -232,59 +227,58 @@
 		</section>
 		
 		<!-- SKILLS -->
-		
-		<section id="skill" class="skills">
-			<div class="container">
-				<div class="summary">
-					<a href="#skills" data-toggle="collapse"><h2 class="heading">Skills</h2></a>
-					<p>
-						 
-					</p>
-					
-					<div id="skills" class="collapse in">
-						<h3 class="title">
-							<div class="col-sm-6">
-								<h3>Computing Languages</h3>
-								<ul style="list-style-type:disc">
-							  		<li>Java</li>
-							  		<li>C++</li>
-									<li>C#</li>
-							  		<li>Python</li>
-									<li>HTML</li>
-									<li>Bash Scripting</li>
-								</ul>
-							</div>
-							
-							<div class="col-sm-6">
-								<h3>Other</h3>
-								<ul style="list-style-type:disc">
-							  		<li>Linux</li>
-							  		<li>Oracle Database</li>
-									<li>Azure</li>
-							  		<li>Router Configuration</li>
-									<li>Switch Configuration</li>
-									<li>Microsoft Office</li>
-									<li>AutoCad</li>
-									<li>solidworks</li>
-								</ul>
-							</div>
-						</h3>
+		<div id="skill">
+			<section  class="skills">
+				<div class="container">
+					<div class="summary">
+						<h2 class="heading">Skills</h2>
+
+						<div id="skills">
+							<h3 class="title">
+								<div class="col-sm-6">
+									<h3>Computing Languages</h3>
+									<img src="img/java-logo.jpg" id ="logo" class="img-thumbnail" width="50" height="50">
+									<ul style="list-style-type:disc">
+										<li>Java</li>
+										<li>C++</li>
+										<li>C#</li>
+										<li>Python</li>
+										<li>HTML</li>
+										<li>Bash Scripting</li>
+									</ul>
+								</div>
+
+								<div class="col-sm-6">
+									<h3>Other</h3>
+									<ul style="list-style-type:disc">
+										<li>Linux</li>
+										<li>Oracle Database</li>
+										<li>Azure</li>
+										<li>Router Configuration</li>
+										<li>Switch Configuration</li>
+										<li>Microsoft Office</li>
+										<li>AutoCad</li>
+										<li>Solidworks</li>
+									</ul>
+								</div>
+							</h3>
+						</div>
 					</div>
 				</div>
-			</div>
-		</section>
+			</section>
+		</div>
 		<!-- END SKILLS -->
 		
 		<!-- HOBBIES -->
 		<section id="hobbies" class="hobbies">
 			<div class="container">
 				<div class="summary">
-					<a href="#hobby" data-toggle="collapse"><h2 class="heading">Hobbies</h2></a>
+					<h2 class="heading">Hobbies</h2>
 					<p>
 						 
 					</p>
 					
-					<div id="hobby" class="collapse in">
+					<div id="hobby">
 						<h3 class="title">
 							<ul style="list-style-type:disc">
 							  <li>Soccer</li>
@@ -298,6 +292,7 @@
 				</div>
 			</div>
 		</section>
+		
 		<!-- END HOBBIES -->
 		
 
@@ -336,19 +331,19 @@
 											  </tr>
 											</thead>
 											<tbody>
-												<tr>
+										  <tr>
 											<td>Network Management</td>
 											<td>B+</td>
 										  </tr>
-												<tr>
+										  <tr>
 											<td>Project</td>
 											<td>B-</td>
 										  </tr>
-												<tr>
+										  <tr>
 											<td>Object Orientd Analysis and Design 2</td>
 											<td>C</td>
 										  </tr>
-												<tr>
+										  <tr>
 											<td>Algorithms and Data Structures 2</td>
 											<td>B</td>
 										  </tr>
@@ -722,7 +717,7 @@
 					<div class="modal-body">
 						<ul class="list-unstyled contact-list">
 							<li class="email"><i class="fa fa-envelope"></i> Email: Davidkiernan@hotmail.co.uk</li>
-							<li class="phone"><i class="fa fa-phone"></i> Available between 9am - 11pm on: 0873923374</li>
+							<li class="phone"><i class="fa fa-phone"></i> Available between 9am - 11pm on: (+353)87 3923374</li>
 							<li class="linkedin"><i class="fa fa-linkedin"></i> More Detailed Information: <a href=https://ie.linkedin.com/in/david-kiernan-a916728b target="_blank">https://ie.linkedin.com/in/david-kiernan-a916728b</a></li>
 							<li class="github"><i class="fa fa-github"></i> Code Work Available: <a href="https://github.com/DavidKiernan" target="_blank">https://github.com/DavidKiernan</a></li>
 						</ul>
@@ -752,7 +747,7 @@
 							</div>
 
 							<div class="form-group">
-								<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+								<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email"/>
 								<div class="validation"></div>
 							</div>
 
@@ -766,49 +761,16 @@
 								<div class="validation"></div>
 							</div>
 							<div id="formbox">
-								<button type="submit" class="contact submit" id="send">Send Message</button>
+								<button type="submit"  class="contact submit" id="send">Send Message</button>
 								<button type="button"  data-dismiss="modal" id="cancel">Cancel</button>
-							</div>							
+							</div>
+							<div></div>
 						</form> <!-- End Form-->
 					</div>
 		
 				</div>
 			</div>
 		</div> <!-- End Quick Message -->
-
-		<!-- Contact Message Form-->
-		<!--
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<div id="sendmessage">Won't send a Message</div>
-					<div id="errormessage"></div>
-					<form action="" method="post" role="form" class="contactForm">
-							<div class="form-group">
-								<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-								<div class="validation"></div>
-							</div>
-
-							<div class="form-group">
-								<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-								<div class="validation"></div>
-							</div>
-
-							<div class="form-group">
-								<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-								<div class="validation"></div>
-							</div>
-
-							<div class="form-group">
-								<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-								<div class="validation"></div>
-							</div>
-
-							<div class="text-center"><button type="submit" class="contact submit">Send Message</button></div>
-						</form>
-					</div>
-				</div>
-			</div>  -->
 
 		<!--FOOTER-->
 		<section class="footer" id="footer">
@@ -820,7 +782,7 @@
 				<p>&copy; David Kiernan. All Rights Reserved.</p>
 				<div class="credits">
 
-					<a href="https://bootstrapmade.com/free-business-bootstrap-themes-website-templates/">Business Bootstrap Themes</a> by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+					<a href="Bootstrap.html" target="_blank">Bootstrap Components Used</a>
 				</div>
 			</div>
 		</section>
