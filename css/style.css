@@ -200,3 +200,38 @@ transform:scale(1.25);
 .credits {
 	text-align: center;
 }
+
+/*
+* Responsive CSS for smaller screens
+*/
+
+@media (min-width: 991px) {
+#myNavbar{
+    height: 100px;
+}
+}
+@media(min-width: 600px){
+#myNavbar{
+    height: 90px;
+}
+}
+@media(min-width:500){
+#myNavbar{
+    height: 70px;
+}
+}
+@media(min-width:400px){
+#myNavbar{
+    height: 60px;
+}
+}
+@media(min-width:300px){
+#myNavbar{
+    height: 60px;
+}
+}
+@media(min-width:200px){
+#myNavbar{
+    height: 60px;
+}
+}
